@@ -1,0 +1,16 @@
+# ignore node/grunt dependency directories
+node_modules/
+
+# ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# track gulpfile and package.json in the root (i.e. do NOT ignore it)
+!gulpfile.js
+!package.json
